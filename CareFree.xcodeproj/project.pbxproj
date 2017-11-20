@@ -15,6 +15,17 @@
 		C22731771FB7AC0A009E84E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22731751FB7AC0A009E84E8 /* LaunchScreen.storyboard */; };
 		C22731821FB7AC0C009E84E8 /* CareFreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22731811FB7AC0C009E84E8 /* CareFreeTests.swift */; };
 		C227318D1FB7AC0D009E84E8 /* CareFreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C227318C1FB7AC0D009E84E8 /* CareFreeUITests.swift */; };
+		C2AB70331FC0C4DB0058BD0B /* FamilyImageLeftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AB70321FC0C4DB0058BD0B /* FamilyImageLeftTableViewCell.swift */; };
+		C2B415D71FC24E18007A2701 /* FamilyImageRightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B415D61FC24E18007A2701 /* FamilyImageRightTableViewCell.swift */; };
+		C2B415DA1FC26FBA007A2701 /* FamilyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B415D91FC26FBA007A2701 /* FamilyManager.swift */; };
+		C2B415DC1FC27520007A2701 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B415DB1FC27520007A2701 /* TabBarController.swift */; };
+		C2B415DE1FC27AAA007A2701 /* Family.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B415DD1FC27AAA007A2701 /* Family.swift */; };
+		C2B8FF031FB7C95100F1D84C /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B8FF021FB7C95100F1D84C /* HelpViewController.swift */; };
+		C2B8FF051FB7CA5B00F1D84C /* HelpPage01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B8FF041FB7CA5B00F1D84C /* HelpPage01ViewController.swift */; };
+		C2B8FF071FB7CB6B00F1D84C /* HelpPage02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B8FF061FB7CB6B00F1D84C /* HelpPage02ViewController.swift */; };
+		C2D003C21FB7F6360072BB77 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D003C11FB7F6360072BB77 /* Constants.swift */; };
+		C2D003C71FBBD8E20072BB77 /* HelpPage03ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D003C61FBBD8E20072BB77 /* HelpPage03ViewController.swift */; };
+		C2D003C91FBBE0600072BB77 /* FamilyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D003C81FBBE0600072BB77 /* FamilyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,17 @@
 		C22731881FB7AC0C009E84E8 /* CareFreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CareFreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C227318C1FB7AC0D009E84E8 /* CareFreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareFreeUITests.swift; sourceTree = "<group>"; };
 		C227318E1FB7AC0E009E84E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2AB70321FC0C4DB0058BD0B /* FamilyImageLeftTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyImageLeftTableViewCell.swift; sourceTree = "<group>"; };
+		C2B415D61FC24E18007A2701 /* FamilyImageRightTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyImageRightTableViewCell.swift; sourceTree = "<group>"; };
+		C2B415D91FC26FBA007A2701 /* FamilyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyManager.swift; sourceTree = "<group>"; };
+		C2B415DB1FC27520007A2701 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		C2B415DD1FC27AAA007A2701 /* Family.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Family.swift; sourceTree = "<group>"; };
+		C2B8FF021FB7C95100F1D84C /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		C2B8FF041FB7CA5B00F1D84C /* HelpPage01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpPage01ViewController.swift; sourceTree = "<group>"; };
+		C2B8FF061FB7CB6B00F1D84C /* HelpPage02ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpPage02ViewController.swift; sourceTree = "<group>"; };
+		C2D003C11FB7F6360072BB77 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C2D003C61FBBD8E20072BB77 /* HelpPage03ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpPage03ViewController.swift; sourceTree = "<group>"; };
+		C2D003C81FBBE0600072BB77 /* FamilyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +122,14 @@
 			isa = PBXGroup;
 			children = (
 				C227316A1FB7AC06009E84E8 /* AppDelegate.swift */,
-				C227316C1FB7AC06009E84E8 /* FirstViewController.swift */,
-				C227316E1FB7AC06009E84E8 /* SecondViewController.swift */,
+				C2D003C11FB7F6360072BB77 /* Constants.swift */,
 				C22731701FB7AC07009E84E8 /* Main.storyboard */,
-				C22731731FB7AC08009E84E8 /* Assets.xcassets */,
 				C22731751FB7AC0A009E84E8 /* LaunchScreen.storyboard */,
 				C22731781FB7AC0A009E84E8 /* Info.plist */,
+				C2B8FEFF1FB7C80200F1D84C /* Controller */,
+				C2B415D81FC26F88007A2701 /* Model */,
+				C2AB70341FC0C8B90058BD0B /* View */,
+				C2B8FF001FB7C84800F1D84C /* Media */,
 			);
 			path = CareFree;
 			sourceTree = "<group>";
@@ -126,6 +150,55 @@
 				C227318E1FB7AC0E009E84E8 /* Info.plist */,
 			);
 			path = CareFreeUITests;
+			sourceTree = "<group>";
+		};
+		C2AB70341FC0C8B90058BD0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2AB70321FC0C4DB0058BD0B /* FamilyImageLeftTableViewCell.swift */,
+				C2B415D61FC24E18007A2701 /* FamilyImageRightTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2B415D81FC26F88007A2701 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2B415D91FC26FBA007A2701 /* FamilyManager.swift */,
+				C2B415DD1FC27AAA007A2701 /* Family.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2B8FEFF1FB7C80200F1D84C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2B8FF011FB7C90500F1D84C /* Ice Breaker */,
+				C2D003C81FBBE0600072BB77 /* FamilyTableViewController.swift */,
+				C227316C1FB7AC06009E84E8 /* FirstViewController.swift */,
+				C227316E1FB7AC06009E84E8 /* SecondViewController.swift */,
+				C2B415DB1FC27520007A2701 /* TabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C2B8FF001FB7C84800F1D84C /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				C22731731FB7AC08009E84E8 /* Assets.xcassets */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		C2B8FF011FB7C90500F1D84C /* Ice Breaker */ = {
+			isa = PBXGroup;
+			children = (
+				C2B8FF021FB7C95100F1D84C /* HelpViewController.swift */,
+				C2B8FF041FB7CA5B00F1D84C /* HelpPage01ViewController.swift */,
+				C2B8FF061FB7CB6B00F1D84C /* HelpPage02ViewController.swift */,
+				C2D003C61FBBD8E20072BB77 /* HelpPage03ViewController.swift */,
+			);
+			path = "Ice Breaker";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +335,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2B8FF071FB7CB6B00F1D84C /* HelpPage02ViewController.swift in Sources */,
+				C2B415DC1FC27520007A2701 /* TabBarController.swift in Sources */,
+				C2D003C71FBBD8E20072BB77 /* HelpPage03ViewController.swift in Sources */,
 				C227316F1FB7AC06009E84E8 /* SecondViewController.swift in Sources */,
+				C2D003C91FBBE0600072BB77 /* FamilyTableViewController.swift in Sources */,
 				C227316B1FB7AC06009E84E8 /* AppDelegate.swift in Sources */,
+				C2B415D71FC24E18007A2701 /* FamilyImageRightTableViewCell.swift in Sources */,
 				C227316D1FB7AC06009E84E8 /* FirstViewController.swift in Sources */,
+				C2B415DA1FC26FBA007A2701 /* FamilyManager.swift in Sources */,
+				C2D003C21FB7F6360072BB77 /* Constants.swift in Sources */,
+				C2AB70331FC0C4DB0058BD0B /* FamilyImageLeftTableViewCell.swift in Sources */,
+				C2B415DE1FC27AAA007A2701 /* Family.swift in Sources */,
+				C2B8FF051FB7CA5B00F1D84C /* HelpPage01ViewController.swift in Sources */,
+				C2B8FF031FB7C95100F1D84C /* HelpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
