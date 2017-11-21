@@ -8,10 +8,22 @@
 
 import UIKit
 
-class FamilyTableViewController: UITableViewController {
+class FamilyTableViewController: UITableViewController, FamilyManagerInjectable, FamilyServiceInjectable {
+    var familyService: FamilyService!
+    var familyManager: FamilyManager!
+    
+    func inject(data: FamilyManager) {
+        self.familyManager = data
+    }
+    
+    func inject(data: FamilyService) {
+        self.familyService = data
+    }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        
+        familyManager.familyService = self.familyService
         
         if !UserDefaults.standard.bool(forKey: firstTimeOpeningApp) {
             self.performSegue(withIdentifier: "helpSegue", sender: self)
@@ -28,7 +40,7 @@ class FamilyTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem        
         //self.tableView.backgroundColor = appBlue
         self.tableView.rowHeight = 100
-
+        
         self.navigationController?.navigationBar.barStyle = UIBarStyle.blackTranslucent
         self.navigationController?.navigationBar.barTintColor = appBlue
         
@@ -56,16 +68,30 @@ class FamilyTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 1
+        return 2
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "familyImageLeftCellReuseId", for: indexPath) as! FamilyImageLeftTableViewCell
-        
-        // Configure the cell...
-//        cell.textLabel?.text = "FAMILY 1"
-        cell.familyPhoto?.image = UIImage(named: "Default Image")
-        return cell
+        // If even.
+        if indexPath.row % 2 == 0 {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "familyImageLeftCellReuseId", for: indexPath) as! FamilyImageLeftTableViewCell
+            
+            // Configure the cell...
+            cell.familyName.text = "FAMILY 1"
+            cell.familyName.textAlignment = .right
+            cell.incarceratedTime.textAlignment = .right
+            cell.leavesBehind.textAlignment = .right
+            cell.familyPhoto?.image = UIImage(named: "Default Image")
+            return cell
+        } else // if odd.
+        {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "familyImageRightCellReuseId", for: indexPath) as! FamilyImageRightTableViewCell
+            
+            // Configure the cell...
+            cell.familyName.text = "FAMILY 2"
+            cell.familyPhoto?.image = UIImage(named: "Default Image")
+            return cell
+        }
     }
     
     /*

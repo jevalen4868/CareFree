@@ -20,6 +20,8 @@
 		C2B415DA1FC26FBA007A2701 /* FamilyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B415D91FC26FBA007A2701 /* FamilyManager.swift */; };
 		C2B415DC1FC27520007A2701 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B415DB1FC27520007A2701 /* TabBarController.swift */; };
 		C2B415DE1FC27AAA007A2701 /* Family.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B415DD1FC27AAA007A2701 /* Family.swift */; };
+		C2B415E01FC460AA007A2701 /* FamilyServiceDev.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B415DF1FC460AA007A2701 /* FamilyServiceDev.swift */; };
+		C2B415E21FC46103007A2701 /* FamilyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B415E11FC46103007A2701 /* FamilyService.swift */; };
 		C2B8FF031FB7C95100F1D84C /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B8FF021FB7C95100F1D84C /* HelpViewController.swift */; };
 		C2B8FF051FB7CA5B00F1D84C /* HelpPage01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B8FF041FB7CA5B00F1D84C /* HelpPage01ViewController.swift */; };
 		C2B8FF071FB7CB6B00F1D84C /* HelpPage02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B8FF061FB7CB6B00F1D84C /* HelpPage02ViewController.swift */; };
@@ -65,6 +67,8 @@
 		C2B415D91FC26FBA007A2701 /* FamilyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyManager.swift; sourceTree = "<group>"; };
 		C2B415DB1FC27520007A2701 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		C2B415DD1FC27AAA007A2701 /* Family.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Family.swift; sourceTree = "<group>"; };
+		C2B415DF1FC460AA007A2701 /* FamilyServiceDev.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyServiceDev.swift; sourceTree = "<group>"; };
+		C2B415E11FC46103007A2701 /* FamilyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyService.swift; sourceTree = "<group>"; };
 		C2B8FF021FB7C95100F1D84C /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		C2B8FF041FB7CA5B00F1D84C /* HelpPage01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpPage01ViewController.swift; sourceTree = "<group>"; };
 		C2B8FF061FB7CB6B00F1D84C /* HelpPage02ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpPage02ViewController.swift; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 			children = (
 				C2B415D91FC26FBA007A2701 /* FamilyManager.swift */,
 				C2B415DD1FC27AAA007A2701 /* Family.swift */,
+				C2B415DF1FC460AA007A2701 /* FamilyServiceDev.swift */,
+				C2B415E11FC46103007A2701 /* FamilyService.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -336,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2B8FF071FB7CB6B00F1D84C /* HelpPage02ViewController.swift in Sources */,
+				C2B415E21FC46103007A2701 /* FamilyService.swift in Sources */,
 				C2B415DC1FC27520007A2701 /* TabBarController.swift in Sources */,
 				C2D003C71FBBD8E20072BB77 /* HelpPage03ViewController.swift in Sources */,
 				C227316F1FB7AC06009E84E8 /* SecondViewController.swift in Sources */,
@@ -348,6 +355,7 @@
 				C2AB70331FC0C4DB0058BD0B /* FamilyImageLeftTableViewCell.swift in Sources */,
 				C2B415DE1FC27AAA007A2701 /* Family.swift in Sources */,
 				C2B8FF051FB7CA5B00F1D84C /* HelpPage01ViewController.swift in Sources */,
+				C2B415E01FC460AA007A2701 /* FamilyServiceDev.swift in Sources */,
 				C2B8FF031FB7C95100F1D84C /* HelpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

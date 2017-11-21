@@ -10,7 +10,8 @@ import UIKit
 
 struct Family {
     var name: String
-    var photo: UIImage
+    var thumbnailPhoto: UIImage?
+    var standardPhoto: UIImage?
     var description: String
     var leavesBehind: Int
     var incarceratedTime: Date
